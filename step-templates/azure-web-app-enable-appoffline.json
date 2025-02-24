@@ -71,7 +71,7 @@
         "Name": "AzWebApp.EnableAppOffline.Deployment.Username",
         "Label": "Deployment username",
         "HelpText": "Provide the user or application-scoped [deployment](https://docs.microsoft.com/en-gb/azure/app-service/deploy-configure-credentials) username for the Azure Web App. Default: `$#{AzWebApp.EnableAppOffline.WebAppName}`.",
-        "DefaultValue": "$#{AzWebApp.EnableAppOffline.WebAppName}",
+        "DefaultValue": "$#{AzWebApp.EnableAppOffline.AzWebAppName}",
         "DisplaySettings": {
           "Octopus.ControlType": "SingleLineText"
         }
